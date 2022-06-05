@@ -1,0 +1,87 @@
+* {
+    margin: 5px auto;
+    padding: 0;
+}
+
+body {
+    margin:50px auto;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    height: 360px;
+    width: 340px;
+    background-color: lightblue;
+/*    background: lightblue url("img/elite.jpg") no-repeat fixed center;
+*/}
+
+#textField {
+    max-width: 95%;
+    width: 100%;
+    border: none;
+    border-radius: 2rem;
+    padding: 0.75em;
+    color: #2b3252
+}
+#firstterm {
+    max-width: 95%;
+    width: 100%;
+    border: none;
+    border-radius: 2rem;
+    padding: 0.75em;
+    color: #2b3252
+}
+#secondterm {
+    max-width: 95%;
+    width: 100%;
+    border: none;
+    border-radius: 2rem;
+    padding: 0.75em;
+    color: #2b3252
+}
+#preparatoryyear {
+    max-width: 95%;
+    width: 100%;
+    border: none;
+    border-radius: 2rem;
+    padding: 0.75em;
+    color: #2b3252
+}
+.inputButton{
+    margin : 0.5rem;
+    max-width: 100%;
+
+}
+
+.rowField{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small,
+.medium,
+.large{
+    margin: 0.2rem;
+    background-color: #fce77d;
+    border: none ;
+    border-radius: 2em;
+    color:  #2b3252
+}
+
+.small:hover,
+.medium:hover,
+.large:hover{
+    background-color: #ef5455
+}
+
+.small{
+    width : 30%
+}
+
+.medium{
+    width : 100%
+}
+
+.large {
+    padding: 0.75em;
+    width: 100%
+}
